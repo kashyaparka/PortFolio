@@ -175,7 +175,7 @@ header .navbar ul li a.active::before{
 }
 #main{
 	
-	
+	background-color:rgba(23, 26, 54, 0.5);
 	height: 80%;
 }
 .container .row .col-12 {
