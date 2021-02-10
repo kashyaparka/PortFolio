@@ -1,20 +1,35 @@
-.index {	background-image: url(WEBbACKGROUND.jpg);
-	background-position:60%  50%;
+.index {	background-image: url(bg.jpg);
+	background-position: 120% 20%;
+	background-attachment: fixed;
+	scroll-behavior: smooth;
 }
 @media only screen and (max-width: 500px){
 	.index {
-	background-image: url(WEBbACKGROUNDPORTRAIT.jpg);
-	background-position:75%  100%;
+	background-image: url(bg.jpg);
+	background-position:75%  20%;
 	}
 	.myself{
-		font-size: 400%;
-		color: aqua;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		font-size: 600%;
+		color: rgb(193, 223, 223) !important;
 		padding: 2px;
 		margin: 2px;
+
 	}
      h4 {
 		 font-size:75% ;
+		 width: 100%;
+		 color:#a0f1fc;
+		 font-weight: 500;
 	 }
+	 .home-content {
+		border-left: 4px !important;
+		border-left: #5564d67e !important;
+		width: 200% !important;
+		display: inline-flex;
+		margin-left: 0rem !important;
+	 }
+
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,300&display=swap');
 
@@ -36,7 +51,7 @@ body{
 }
 .row{
 	display: flex;
-	flex-wrap: wrap;
+	flex:wrap;
 
 }
 
@@ -106,14 +121,19 @@ header .navbar ul li a.active::before{
 		bottom:-1px;	
 }
 .myself {
-	color: rgb(240, 246, 252);
+	color: rgb(71, 72, 73);
 	font-size: 3rem;
+	font-weight: 400;
+	font-stretch: expanded;
+
 }
 #sub-text {
 	color:#d8d8d8 ;
 	font-size: 85%;
 }
-
+.home-content {
+	margin-left:2rem;
+}
 .home{
 	min-height: 100vh;
 	color: #95a4ccd5;
@@ -132,7 +152,7 @@ header .navbar ul li a.active::before{
 .home .home-content{
 	
 	flex:0 0 75%;
-	max-width: 75%;
+	max-width: 100%;
 }
 .home .home-content .block{
 
